@@ -35,7 +35,8 @@ public class FcmNotificationSender {
 //            CoreNotificationsApps app = getInfoApp(notifiConfig);
 //            FcmNotificationMessage fcmNotificationMessage = setFcmNotificationMessage(notifiConfig);
             JsonObject data = getData(messageId);
-//            String[] listuserst = new String[]{"eBNNyExliRE:APA91bH6BA2ftoi-9_8vsysPY1Uh_IgxLrymiA5qACc-WZ3QMphPcA4v5CnckDY-sdUBzMJQVjkHP8eeZiPhbKsVv9TphnGhgTdSnnNx1pSJGPppJDLw4zrrpo-QHQ4GZAWAiIQh9pv4"};
+            //replace star , Token id users
+//            String[] listuserst = new String[]{"*************"};
 
             FcmNotification fcmNotification = new FcmNotification();
             fcmNotification.setTo(null);
@@ -47,7 +48,8 @@ public class FcmNotificationSender {
             String strJsonBody = gson.toJson(fcmNotification);
 
 //            SendToServerFcm(strJsonBody, app.getAppTokenId());
-            SendToServerFcm(strJsonBody, "AAAATPjlDu8:APA91bHjJ1NmFlXoofzLGMKVOclxYvUCdospNWr730-MMYg26_ZtysbV-0Y3LqiEz2Oyq4wj5ve_iDLQ9CGjcSCe0cjQGuLbWAjZtxll_-QDerPDLt-jA8yG57WTylqN8EZ5aTlBJi6j");
+            // replace **** , token Api Firbase 
+            SendToServerFcm(strJsonBody, "***************************************");
 
 //            changeStatusNotification(notifiConfig);
 
