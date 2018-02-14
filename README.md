@@ -1,2 +1,3 @@
 # MessageServer
-Message Server with Spring Bot , Hibernate 5 , Restfull
+Message Server with Spring Boot , Hibernate 5 , Restfull ,Maven
+
