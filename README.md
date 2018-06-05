@@ -1,12 +1,14 @@
 # MessengerServer
-Messenger Server with Spring Boot , Hibernate 5 , Restfull ,Maven
 
-This project is an online chat server that has been developed with the help of spring boot.
+
+This project is an online chat server built using spring boot.
 All requests in this project are transferred to the restfull bed.
-The FCM has been used in this project to be informed of new changes such as "receiving new messages".
-By registering any new message on the server by the FCM, a notification is sent to the rest of the clients and informs them of the new change.
+In this project, Firebase Cloud Messaging (FCM) has been used to inform new changes, such as "Receive New Messages."
+In this way, by registering each new message on the server by the FCM, a notification is sent to the rest of the clients and informs them of the new changes.
 
-Spring data is used to communicate with the database.
+Spring data jpa is used to access the database.
 
 
 android client project :https://github.com/MarsDown/chat-client-android-restful
+
+
