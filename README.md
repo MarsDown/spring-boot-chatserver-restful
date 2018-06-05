@@ -7,3 +7,6 @@ The FCM has been used in this project to be informed of new changes such as "rec
 By registering any new message on the server by the FCM, a notification is sent to the rest of the clients and informs them of the new change.
 
 Spring data is used to communicate with the database.
+
+
+android client project :https://github.com/MarsDown/chat-client-android-restful
