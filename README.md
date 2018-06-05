@@ -1,4 +1,4 @@
-# MessengerServer
+# ChatServer
 
 
 This project is an online chat server built using spring boot.
